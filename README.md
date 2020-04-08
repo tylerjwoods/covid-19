@@ -22,6 +22,8 @@ With that null hypothesis, the conditional probability of finding a result equal
 
 For each day, the percent increase in the number of cases from the day before was calculated. Then, that percent increase from before social distancing and after social distancing was used to calcualte the p-value.
 
+#### Percent Increase = (That Day's Cases - Previous Day's Cases) / (Previous Day's Cases) * 100
+
 A graph of each state and the p-value was generated. An example of one state, Washington, is shown below. The p-value is very low, which means that the null hypothesis can be rejected. This signifies that there may be an effect of social distancing on percent increase in reported COVID-19 cases.
 
 ![Washington](figures/Washington_states_with_p_value.png)
@@ -31,6 +33,11 @@ A graph of each state and the p-value was generated. An example of one state, Wa
 Additionally, California is shown below. This state was found to have a high p-value, meaning that the null hypothesis can not be rejected. Additional exploration of the data can be done to look into why.
 
 ![California](figures/California_states_with_p_value.png)
+
+
+Lastly, New York is shown below. New York was found to also have a low p-value, similar to Washington.
+
+![New York](figures/New York_states_with_p_value.png)
 
 
 More states can be observed in the 'All-States-COVID-19.ipynb'
