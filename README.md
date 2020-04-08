@@ -26,9 +26,14 @@ A graph of each state and the p-value was generated. An example of one state, Wa
 
 ![Washington](figures/Washington_states_with_p_value.png)
 
+
+
 Additionally, California is shown below. This state was found to have a high p-value, meaning that the null hypothesis can not be rejected. Additional exploration of the data can be done to look into why.
 
 ![California](figures/California_states_with_p_value.png)
 
+
+More states can be observed in the 'All-States-COVID-19.ipynb'
+
 Further look into:
-Social distancing vs Stay-At-Home Orders (Need more dates)
+As more data becomes available in the future, a possible expansion of this study would be to look at social distancing guidelines and stay-at-home orders.
