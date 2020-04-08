@@ -37,7 +37,7 @@ Additionally, California is shown below. This state was found to have a high p-v
 
 Lastly, New York is shown below. New York was found to also have a low p-value, similar to Washington.
 
-![New York](figures/New York_states_with_p_value.png)
+![New York](figures/New_York_states_with_p_value.png)
 
 
 More states can be observed in the 'All-States-COVID-19.ipynb'
