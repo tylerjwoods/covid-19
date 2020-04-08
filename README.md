@@ -16,7 +16,7 @@ Each state was given the null hypothesis: The social distancing guidelines do no
 
 The rejection threshold is shown below.
 
-$$ \alpha = 0.05 $$
+Rejection Threshold = 0.05
 
 With that null hypothesis, the conditional probability of finding a result equally or more extreme than observed was calculated (the p-value).
 
@@ -35,5 +35,8 @@ Additionally, California is shown below. This state was found to have a high p-v
 
 More states can be observed in the 'All-States-COVID-19.ipynb'
 
-Further look into:
-As more data becomes available in the future, a possible expansion of this study would be to look at social distancing guidelines and stay-at-home orders.
+
+### Further look into:
+As more data becomes available in the future, a possible expansion of this study would be to look at social distancing guidelines and stay-at-home orders. 
+
+The question could be: Do stay-at-home orders provide a change in the percent increase of the number of COVID-19 cases vs. social distancing guidelines?
