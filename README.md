@@ -51,6 +51,11 @@ The question could be: Do stay-at-home orders provide a change in the percent in
 
 ## Additional EDA
 
-An EDA of the 3-day percent change in number of reported cases is shown below. For interactive, see 'choropleth_county.ipynb'
+An EDA of the 3-day percent change in number of reported cases at the state level is shown below. For interactive, see 'choropleth_states.ipynb'.
+
+![State](figures/st)
+
+
+An EDA of the 3-day percent change in number of reported cases at the county level is shown below. For interactive, see 'choropleth_county.ipynb'.
 
 ![County](figures/county_choropleth.png)   
