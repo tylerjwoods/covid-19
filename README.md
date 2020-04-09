@@ -47,3 +47,10 @@ More states can be observed in the 'All-States-COVID-19.ipynb'
 As more data becomes available in the future, a possible expansion of this study would be to look at social distancing guidelines and stay-at-home orders. 
 
 The question could be: Do stay-at-home orders provide a change in the percent increase of the number of COVID-19 cases vs. social distancing guidelines?
+
+
+## Additional EDA
+
+An EDA of the 3-day percent change in number of reported cases is shown below. For interactive, see 'choropleth_county.ipynb'
+
+![County](figures/county_choropleth.png)
