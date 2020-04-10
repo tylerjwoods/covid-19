@@ -8,6 +8,8 @@ I am not an epidemiologist. This study is being done for educational purposes on
 
 The number of reported COVID cases for each day/state was taken from the New York Times' GitHub (https://github.com/nytimes/covid-19-data). 
 
+Data was also obtained from: https://covidtracking.com/api/
+
 The date at which the state implemented stay-at-home orders was scraped from: https://www.kff.org/coronavirus-policy-watch/stay-at-home-orders-to-fight-covid19/
 
 ### Hypothesis Testing
@@ -51,13 +53,17 @@ The question could be: Do stay-at-home orders provide a change in the percent in
 
 ## Additional EDA
 
-To further answer the question: "Do social distancing guidelines provide a change in the percent increase of the number of COVID-19 cases that a state reports", an investigation of the 3-day percent changes was performed, this time at the county level. 
-
-To do this, the 3-day percent change was calculated. This is:
+To further answer the question: "Do social distancing guidelines provide a change in the percent increase of the number of COVID-19 cases that a state reports", an investigation of the 3-day percent changes was performed. To do this, the 3-day percent change was calculated. This is:
 
 #### 3-day percent change = (Today's Number of Cases - Cases from 3 Days Ago) / (Cases from 3 Days Ago) * 100
 
-The previous 3-day percent was also calculated (i.e., number of cases from 4 days and 7 days ago). The previous 3-day percent change was subtracted from the current 3-day percent change. If the value is postive, that means the county is trending in the wrong direction (i.e., social distancing is not working). If negative, trending in correct direction (i.e., social distancing is working). See below for the choropleth map. For interactive, see 'choropleth_county.ipynb'.
+The previous 3-day percent was also calculated (i.e., number of cases from 4 days and 7 days ago). The previous 3-day percent change was subtracted from the current 3-day percent change. If the value is postive, that means the county is trending in the wrong direction (i.e., social distancing is not working). If negative, trending in correct direction (i.e., social distancing is working). See below for the choropleth map. For interactive, see 'choropleth_states.ipynb'.
+
+![State_changes](figures/states_changes_3_day.png)
+
+#### As shown above, most states are in the 'negative', which means that there has been a drop in the 3-day percent change. This can be attributed to social distancing.
+
+An investigation of the 3-day percent changes was also performed at the county level. 
 
 ![Change](figures/changes_in_3_day.png)
 
@@ -65,8 +71,6 @@ An EDA of the 3-day percent change in number of reported cases at the state leve
 
 ![State](figures/states_choropleth.png)
 
-
 An EDA of the 3-day percent change in number of reported cases at the county level is shown below. For interactive, see 'choropleth_county.ipynb'.
 
 ![County](figures/county_choropleth.png)
-
