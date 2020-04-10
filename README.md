@@ -31,7 +31,6 @@ A graph of each state and the p-value was generated. An example of one state, Wa
 ![Washington](figures/Washington_states_with_p_value.png)
 
 
-
 Additionally, California is shown below. This state was found to have a high p-value, meaning that the null hypothesis can not be rejected. Additional exploration of the data can be done to look into why.
 
 ![California](figures/California_states_with_p_value.png)
@@ -66,11 +65,3 @@ The previous 3-day percent was also calculated (i.e., number of cases from 4 day
 An investigation of the 3-day percent changes was also performed at the county level. 
 
 ![Change](figures/changes_in_3_day.png)
-
-An EDA of the 3-day percent change in number of reported cases at the state level is shown below. For interactive, see 'choropleth_states.ipynb'.
-
-![State](figures/states_choropleth.png)
-
-An EDA of the 3-day percent change in number of reported cases at the county level is shown below. For interactive, see 'choropleth_county.ipynb'.
-
-![County](figures/county_choropleth.png)
