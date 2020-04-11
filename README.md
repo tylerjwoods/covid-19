@@ -64,4 +64,4 @@ The previous 3-day percent was also calculated (i.e., number of cases from 4 day
 
 An investigation of the 3-day percent changes was also performed at the county level. 
 
-![Change](figures/changes_in_3_day.png)
+![Change](figures/changes_in_3_day.png) 
