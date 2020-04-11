@@ -62,6 +62,8 @@ The previous 3-day percent was also calculated (i.e., number of cases from 4 day
 
 #### As shown above, most states are in the 'negative', which means that there has been a drop in the 3-day percent change. This can be attributed to social distancing.
 
-An investigation of the 3-day percent changes was also performed at the county level. 
+An investigation of the 3-day percent changes was also performed at the county level. For interactive, see 'choropleth_county.ipynb'. Again, as shown below, most counties are shown in the negative.
 
 ![Change](figures/changes_in_3_day.png) 
+
+#### Most counties show a drop in the 3-day percent change and can be attributed to social distancing.
